@@ -1,0 +1,7 @@
+This sample network is Circular Topology Network which takes number of switches and hosts as input. The characteristic of this Network is such that the odd numbered hosts can ping to only odd numbered where as even numbered hosts can ping to only even numbered hosts.
+
+First, run the following command "sudo python ~/pox/pox.py forwarding.l2_multi openflow.discovery --eat-early-packets openflow.spanning_tree --no-flood --hold-down"
+
+Once the controller is up, run this command --> "sudo python mininet.py"
+
+Technologies Required : Pox Controller and Mininet

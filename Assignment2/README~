@@ -1,0 +1,10 @@
+This sample network is Circular Topology Network which takes number of switches and hosts as input. The characteristic of this 
+
+First, run the following command
+
+Once the controller is up, run this command --
+
+Technologies Required : 
+
+Pox Controller
+Mininet
